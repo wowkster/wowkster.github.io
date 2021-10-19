@@ -8,7 +8,7 @@
     </p>
     <div class="socials__grid">
       <a
-        href="https://github.com/jacobtread"
+        href="https://github.com/wowkster"
         rel="nooppener"
         target="_blank"
         title="GitHub"
@@ -17,7 +17,7 @@
         <GithubIcon class="socials__grid__item__icon" />
       </a>
       <a
-        href="https://instagram.com/jacobtread"
+        href="https://instagram.com/wowkster"
         rel="nooppener"
         target="_blank"
         title="Instagram"
@@ -26,7 +26,7 @@
         <InstagramIcon class="socials__grid__item__icon" />
       </a>
       <a
-        href="mailto:jacobtread@gmail.com"
+        href="mailto:wowkster@wowkster.com"
         rel="nooppener"
         target="_blank"
         title="Mail"

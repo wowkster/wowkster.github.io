@@ -1,37 +1,39 @@
 {
   "values": [
     {
-      "img": "https://raw.githubusercontent.com/jacobtread/QRLS/main/public/img/logo.svg",
-      "title": "QRLS",
-      "description": "QRLS is a kiosk system for the Questionable Research Labs which allows members and guests to sign in when entering the building and also manage and view who has been in the building.",
+      "img": "https://cloaksplus.com/assets/logo_icon.d7e77f4e.png",
+      "title": "Cloaks+",
+      "description": "Cloaks+ is a Minecraft cape service that allows users to customize their character's appearance further than ever before imagined. We utilize may different languages and technologies across our many services, all seamlessly linked together.",
       "links": {
-        "github": "https://github.com/jacobtread/QRLS"
-      }
+        "github": "https://github.com/CloaksPlus",
+        "website": "https://cloaksplus.com"
+      },
+      "stack": [
+        "Javascript",
+        "Typescript",
+        "Node",
+        "Express",
+        "Fastify",
+        "MongoDB",
+        "React",
+        "Vue",
+        "Vite",
+        "C#",
+        "Java",
+        "Kotlin"
+      ]
     },
     {
-      "img": "https://raw.githubusercontent.com/jacobtread/NZGM/main/src/assets/img/logo-white.svg",
-      "title": "NZGM",
-      "description": "NZGM (NZGrapher Modern) is a modern alternative to the NZGrapher web graphing application which has many improvements of NZGrapher such as live editing data and the ability to run offline.",
+      "img": "https://gist.githubusercontent.com/wowkster/d249faa08b93957e13b0aafef0c5c952/raw/170a338623fc1bd306961e67bab7c22f1a0d3a63/gecko.svg",
+      "title": "Gecko",
+      "description": "Gecko is a custom programming language I am working on which is dynamically typed and suports multiple programming paradigms. It is interpretted by a complteley custom interpreter written in java and kotlin which does not use any third party lexing libraries.",
       "links": {
-        "github": "https://github.com/jacobtread/NZGM",
-        "website": "https://jacobtread.github.io/NZGM/"
-      }
-    },
-    {
-      "img": "https://github.githubassets.com/images/icons/emoji/unicode/1f986.png",
-      "title": "Pond",
-      "description": "Pond is a custom programming language for writing scripts for a USB Rubber ducky it improves alot upon the existing ducky code language providing variables and macros.",
-      "links": {
-        "github": "https://github.com/jacobtread/Pond"
-      }
-    },
-    {
-      "img": "https://github.githubassets.com/images/icons/emoji/unicode/1f393.png",
-      "title": "KNI",
-      "description": "KNI (KAMAR Notices Interface) is a collection of libraries in different programming languages that all have the one purpose of fetching notices from the KAMAR portal application.",
-      "links": {
-        "github": "https://github.com/jacobtread/KNI"
-      }
+        "github": "https://github.com/wowkster/gecko-lang"
+      },
+      "stack": [
+        "Java",
+        "Kotlin"
+      ]
     }
   ]
 }

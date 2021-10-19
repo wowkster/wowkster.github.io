@@ -32,6 +32,18 @@
           target="_blank"
           >View Website</a
         >
+        <div class="folio__items__value__stack" v-if="item.stack">
+          <h2 class="folio__items__value__stack__title">Stack</h2>
+          <div class="folio__items__value__stack__tech">
+            <p
+              class="folio__items__value__stack__tech__item"
+              v-for="(stack_tech, stack_index) in item.stack"
+              :key="stack_index"
+            >
+              {{ stack_tech }}
+            </p>
+          </div>
+        </div>
       </div>
     </div>
   </div>
@@ -43,14 +55,13 @@ import GithubIcon from "@/assets/icons/github.svg?inline";
 import Vue from "vue";
 export default Vue.extend({
   components: { GithubIcon },
-  props: ['folio']
+  props: ["folio"]
 });
 </script>
 <style lang="scss" scoped>
 @import "@/assets/scss/variables.scss";
 
 .folio {
-
   &__items {
     display: flex;
     flex-flow: row;
@@ -73,11 +84,11 @@ export default Vue.extend({
       max-width: 500px;
 
       &__img {
-        height: 32px;
+        height: 38px;
         position: absolute;
         left: 1em;
         top: 1em;
-        opacity: 0.25;
+        opacity: 0.55;
         transition: opacity 0.25s ease;
       }
 
@@ -86,6 +97,11 @@ export default Vue.extend({
 
         img {
           opacity: 1;
+        }
+
+        .folio__items__value__stack__tech__item {
+            border: 2px solid lighten($background, 8%);
+            color: lighten($text-color, 8%);
         }
       }
 
@@ -116,6 +132,35 @@ export default Vue.extend({
         &:hover {
           background: darken($primary, 5);
           color: white;
+        }
+      }
+
+      &__stack {
+        &__title {
+          color: $title-color;
+          font-weight: 700;
+          font-size: 1em;
+          margin: 0.75em 0 0.75em 0;
+        }
+
+        &__tech {
+          display: flex;
+          color: darken($text-color, 10%);
+          padding: 0 1em;
+          line-height: 1.7;
+          gap: 0.3em;
+          padding: 0 1em;
+          flex-wrap: wrap;
+          align-items: center;
+          justify-content: center;
+
+          &__item {
+            border: 2px solid $background;
+            border-radius: 4px;
+            padding: 0.25em;
+            font-size: 0.8em;
+            transition: all 0.2s ease;
+          }
         }
       }
     }

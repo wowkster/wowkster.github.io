@@ -3,14 +3,16 @@
     <AbstrBottom class="abstr" />
     <h1 class="block__title">About Me</h1>
     <p class="block__text">
-      I am a small time developer from 🥝 New Zealand with a lot of free time on
-      my hands. I spent my days developing web applications mostly 🕹️ Dashboards
-      and similar applications. But I do accasionally dip my feet into the world
-      desktop applications with
-      <KotlinIcon class="icon--inline" /> Kotlin and Java. But I do perfer to
-      use Web techologies such as
-      <TypeScriptIcon class="icon--inline" /> Typescript and
-      <VueJSIcon class="icon--inline" /> VueJS
+      I'm a 16 year-old self-taught software developer 💻 currently developing
+      full-stack in Vue, React, and Node. I'm extremely dedicated and passionate about
+      programming and cybersecurity, always eager to learn new things, and never
+      backing down from a challenge.
+      <br />
+      <br />
+      Collaborating with friends and colleagues I have gathered experience
+      working on as well as managing team projects. I have a strong work ethic
+      and great leadership skills. No matter where I am assigned, I strive to
+      produce high quality and efficient solutions to any software problem.
     </p>
   </div>
 </template>
@@ -23,7 +25,7 @@ import KotlinIcon from "@/assets/icons/kotlin.svg?inline";
 import AbstrBottom from "@/assets/img/abstr-bottom.svg?inline";
 
 export default Vue.extend({
-  components: { TypeScriptIcon, VueJSIcon, KotlinIcon, AbstrBottom },
+  components: { TypeScriptIcon, VueJSIcon, KotlinIcon, AbstrBottom }
 });
 </script>
 
@@ -33,5 +35,4 @@ export default Vue.extend({
 .abstr {
   transform: translateY(-8px);
 }
-
 </style>

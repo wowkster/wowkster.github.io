@@ -4,24 +4,22 @@
       <div class="heading--wrapper">
         <img
           class="heading__logo"
-          src="/img/jacobtread.png"
-          alt="Jacobtread's Avatar"
-          title="Jacobtread"
+          src="/img/wowkster.png"
+          alt="Wowkster's Avatar"
+          title="Wowkster"
           width="379px"
           height="379px"
         />
-        <h1 class="heading__title">Jacobtread</h1>
+        <h1 class="heading__title">Wowkster</h1>
         <div class="heading__role">
           <Typer
             :values="[
               'Web',
               'Software',
-              'Stonks™',
               'JS',
+              'Cloaks+',
               'PHP',
               'Cool',
-              'Bad',
-              'Cheat',
               'HTML',
               'CSS',
             ]"
@@ -32,9 +30,8 @@
         </div>
         <Quote
           class="heading__quote"
-          text="when you don't create things, you become defined by your tastes rather
-        than ability. your tastes only narrow & exclude people. so create."
-          author="Jonathan Gillette"
+          text="Good artists copy, great artists steal."
+          author="Pablo Picasso"
         />
       </div>
       <AbstrTop class="abstr" />

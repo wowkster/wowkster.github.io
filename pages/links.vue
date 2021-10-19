@@ -3,13 +3,13 @@
     <div class="heading">
       <img
         class="heading__logo"
-        src="/img/jacobtread.png"
-        alt="Jacobtread's Avatar"
-        title="Jacobtread"
+        src="/img/wowkster.png"
+        alt="Wowkster's Avatar"
+        title="Wowkster"
         width="379px"
         height="379px"
       />
-      <h1 class="heading__title">Jacobtread</h1>
+      <h1 class="heading__title">Wowkster</h1>
       <p class="heading__text">
         This page contains links to all my social media and other platforms
       </p>
@@ -19,50 +19,50 @@
         class="links__item"
         target="_blank"
         rel="nooppener"
-        href="https://instagram.com/jacobtread"
+        href="https://instagram.com/wowkster"
       >
         <InstagramIcon />
         <div class="links__item__content">
           <h1 class="links__item__content__title">Instagram</h1>
-          <p class="links__item__content__text">jacobtread</p>
+          <p class="links__item__content__text">wowkster</p>
         </div>
       </a>
       <a
         class="links__item"
         target="_blank"
         rel="nooppener"
-        href="https://github.com/jacobtread"
+        href="https://github.com/wowkster"
       >
         <GithubIcon />
         <div class="links__item__content">
           <h1 class="links__item__content__title">GitHub</h1>
-          <p class="links__item__content__text">jacobtread</p>
+          <p class="links__item__content__text">wowkster</p>
         </div>
       </a>
       <a
         class="links__item"
         target="_blank"
         rel="nooppener"
-        href="https://tellonym.me/jacobtread"
+        href="https://twitter.com/WowksterMC"
       >
-        <TellonymIcon />
+        <TwitterIcon />
         <div class="links__item__content">
-          <h1 class="links__item__content__title">Tellonym</h1>
-          <p class="links__item__content__text">jacobtread</p>
+          <h1 class="links__item__content__title">Twitter</h1>
+          <p class="links__item__content__text">@WowksterMC</p>
         </div>
       </a>
       <div class="links__item">
         <DiscordIcon />
         <div class="links__item__content">
           <h1 class="links__item__content__title">Discord</h1>
-          <p class="links__item__content__text">Jacobtread#3770</p>
+          <p class="links__item__content__text">Wowkster#001</p>
         </div>
       </div>
-      <a class="links__item" rel="nooppener" href="mailto:jacobtread@gmail.com">
+      <a class="links__item" rel="nooppener" href="mailto:wowkster@wowkster.com">
         <MailIcon />
         <div class="links__item__content">
           <h1 class="links__item__content__title">Email</h1>
-          <p class="links__item__content__text">jacobtread@gmail.com</p>
+          <p class="links__item__content__text">wowkster@wowkster.com</p>
         </div>
       </a>
     </div>
@@ -74,7 +74,7 @@ import Vue from "vue";
 import GithubIcon from "@/assets/icons/github.svg?inline";
 import InstagramIcon from "@/assets/icons/instagram.svg?inline";
 import MailIcon from "@/assets/icons/mail.svg?inline";
-import TellonymIcon from "@/assets/icons/tellonym.svg?inline";
+import TwitterIcon from "@/assets/icons/twitter.svg?inline";
 import DiscordIcon from "@/assets/icons/discord.svg?inline";
 
 export default Vue.extend({
@@ -82,7 +82,7 @@ export default Vue.extend({
     GithubIcon,
     InstagramIcon,
     MailIcon,
-    TellonymIcon,
+    TwitterIcon,
     DiscordIcon,
   },
 });
