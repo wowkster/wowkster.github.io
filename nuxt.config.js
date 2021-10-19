@@ -21,7 +21,7 @@ export default {
       { property: "og:url", content: "https://wowkster.github.io/" },
       {
         property: "og:image",
-        content: "https://wowkster.github.io/img/wowkster.png"
+        content: "https://wowkster.github.io/img/wowkster.png?"
       },
       { name: "author", content: "Wowkster" },
       { name: "description", content: description },
