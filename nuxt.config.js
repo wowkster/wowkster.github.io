@@ -18,10 +18,10 @@ export default {
       { property: "og:type", content: "website" },
       { property: "og:title", content: "Wowkster" },
       { property: "og:description", content: description },
-      { property: "og:url", content: "https://wowkster.com/" },
+      { property: "og:url", content: "https://wowkster.github.io/" },
       {
         property: "og:image",
-        content: "https://wowkster.com/img/wowkster.png"
+        content: "https://wowkster.github.io/img/wowkster.png"
       },
       { name: "author", content: "Wowkster" },
       { name: "description", content: description },
