@@ -26,7 +26,7 @@
     {
       "img": "https://gist.githubusercontent.com/wowkster/d249faa08b93957e13b0aafef0c5c952/raw/170a338623fc1bd306961e67bab7c22f1a0d3a63/gecko.svg",
       "title": "Gecko",
-      "description": "Gecko is a custom programming language I am working on which is dynamically typed and suports multiple programming paradigms. It is interpretted by a complteley custom interpreter written in java and kotlin which does not use any third party lexing libraries.",
+      "description": "Gecko is a custom programming language I am working on which is dynamically typed and suports multiple programming paradigms. It is interpretted by a completely custom interpreter written in java and kotlin which does not use any third party lexing libraries.",
       "links": {
         "github": "https://github.com/wowkster/gecko-lang"
       },
