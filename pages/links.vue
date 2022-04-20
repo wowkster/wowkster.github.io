@@ -19,18 +19,6 @@
         class="links__item"
         target="_blank"
         rel="nooppener"
-        href="https://instagram.com/wowkster"
-      >
-        <InstagramIcon />
-        <div class="links__item__content">
-          <h1 class="links__item__content__title">Instagram</h1>
-          <p class="links__item__content__text">wowkster</p>
-        </div>
-      </a>
-      <a
-        class="links__item"
-        target="_blank"
-        rel="nooppener"
         href="https://github.com/wowkster"
       >
         <GithubIcon />

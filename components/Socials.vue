@@ -17,15 +17,6 @@
         <GithubIcon class="socials__grid__item__icon" />
       </a>
       <a
-        href="https://instagram.com/wowkster"
-        rel="nooppener"
-        target="_blank"
-        title="Instagram"
-        class="socials__grid__item"
-      >
-        <InstagramIcon class="socials__grid__item__icon" />
-      </a>
-      <a
         href="mailto:wowkster@wowkster.com"
         rel="nooppener"
         target="_blank"
