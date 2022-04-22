@@ -66,6 +66,21 @@
         "PNG.js",
         "JPEG.js"
       ]
+    },
+    {
+      "img": "https://user-images.githubusercontent.com/49880655/164713929-e93a752d-0df8-4adb-bd67-c256001ec599.png",
+      "title": "Minecraft Cape Renderer",
+      "description": "An api (with a frontend web interfce) for rendering Minecraft cape textures with Blender's Cycles render engine.",
+      "links": {
+      },
+      "stack": [
+        "Node",
+        "Vue",
+        "Vuetify",
+        "Socket.io",
+        "Docker",
+        "Blender API"
+      ]
     }
   ]
 }
