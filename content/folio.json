@@ -20,19 +20,51 @@
         "Vite",
         "C#",
         "Java",
-        "Kotlin"
+        "Kotlin",
+        "C++",
+        "Rust"
       ]
     },
     {
-      "img": "https://gist.githubusercontent.com/wowkster/d249faa08b93957e13b0aafef0c5c952/raw/170a338623fc1bd306961e67bab7c22f1a0d3a63/gecko.svg",
-      "title": "Gecko",
-      "description": "Gecko is a custom programming language I am working on which is dynamically typed and suports multiple programming paradigms. It is interpretted by a completely custom interpreter written in java and kotlin which does not use any third party lexing libraries.",
+      "img": "https://upload.wikimedia.org/wikipedia/commons/a/ae/Komodo_mark.svg",
+      "title": "Komodo",
+      "description": "Komodo is a custom programming language I am working on which is dynamically typed and suports multiple programming paradigms. It is interpretted by a completely custom interpreter written in java and kotlin which does not use any third party lexing libraries.",
       "links": {
-        "github": "https://github.com/wowkster/gecko-lang"
+        "github": "https://github.com/KomodoLang"
       },
       "stack": [
-        "Java",
-        "Kotlin"
+        "C++",
+        "Typescript"
+      ]
+    },
+    {
+      "img": "https://upload.wikimedia.org/wikipedia/commons/thumb/8/85/Cards_Against_Humanity_logo_2009.svg/800px-Cards_Against_Humanity_logo_2009.svg.png",
+      "title": "Cards Against Humanity Online",
+      "description": "Inspired by several existing online ports of the game, I decided to make my own that looks and feels much nicer than existing versions.",
+      "links": {
+        "github": "https://github.com/wowkster/CardsAgainstHumanity"
+      },
+      "stack": [
+        "Nextjs",
+        "Typescript",
+        "SASS",
+        "Fastify",
+        "Socket.io",
+        "MongoDB"
+      ]
+    },
+    {
+      "img": "https://juniortech.org/wp-content/uploads/2019/04/algorithm-icon-362x320px.png",
+      "title": "Node Resemble",
+      "description": "Updated javascript image similarity library with added support for async await functionality. (No dependence on canvas so can be used anywhere)",
+      "links": {
+        "github": "https://github.com/wowkster/resemble"
+      },
+      "stack": [
+        "Node",
+        "Gulp",
+        "PNG.js",
+        "JPEG.js"
       ]
     }
   ]
