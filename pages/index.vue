@@ -1,4 +1,4 @@
-<template>
+6<template>
   <div>
     <div class="heading">
       <div class="heading--wrapper">
