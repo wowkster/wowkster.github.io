@@ -3,8 +3,8 @@
     <AbstrBottom class="abstr" />
     <h1 class="block__title">About Me</h1>
     <p class="block__text">
-      I'm a 16 year-old self-taught software developer 💻 currently developing
-      full-stack in Vue, React, and Node. I'm extremely dedicated and passionate about
+      I'm a self-taught software developer 💻 currently developing
+      full-stack in Vue, React, Next.js, and Node. I'm extremely dedicated and passionate about
       programming and cybersecurity, always eager to learn new things, and never
       backing down from a challenge.
       <br />
